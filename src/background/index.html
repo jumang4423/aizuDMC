@@ -1,0 +1,29 @@
+<script>
+  // RGBA.js - super tiny webgl/fragment shader lib
+
+  //  simplest example
+
+  // there are three uniforms added by library code:
+
+  //  uniform vec2 resolution; // screen resolution
+  //  uniform float time; // frame time in seconds
+  RGBA(`
+    vec2 uv = gl_FragCoord.xy/resolution - 0.5;
+    uv.x *= resolution.x/resolution.y;
+    
+    float st = sin(time*0.51);
+    float ct = cos(time*0.37);
+
+    for (float i=0.; i<3.; i++) {
+        uv = sin(uv);
+        uv = abs(uv) / dot(uv, uv) 
+            - ct * st 
+            - 1.;
+        uv = uv * mat2(ct, st, -st, ct);
+    }
+    
+    gl_FragColor = vec4(uv, pow(uv.y,uv.x),0.4);
+`)
+</script>
+
+<script src="https://rawcdn.githack.com/strangerintheq/rgba/0.0.4/rgba.js"></script>
