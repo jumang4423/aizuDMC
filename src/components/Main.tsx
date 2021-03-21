@@ -1,8 +1,6 @@
 import React from 'react';
 import "@/styles/component/MDArea.scss";
 
-// pictures
-
 interface Props {
 }
 

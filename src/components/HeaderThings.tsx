@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from "gatsby"
 import HeaderButton from "@/components/HeaderButton"
 import "@/styles/component/HeaderThings.scss";
 

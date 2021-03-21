@@ -14,11 +14,6 @@ const Header: React.FC<Props> = () => {
             className="Header"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}>
-            {/* <audio 
-            src="/background.mp3"
-            autoPlay={true}
-            loop
-            ></audio > */}
             <ConsoleLog />
             <HeaderFoot />
             <HeaderThings />
