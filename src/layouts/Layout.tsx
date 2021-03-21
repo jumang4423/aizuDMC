@@ -3,9 +3,6 @@ import { Router } from "@reach/router"
 import Header from "@/components/Header"
 import MainPage from "@/layouts/MainPage"
 import "@/styles/layout/Layout.scss"
-const RotateJumang = React.lazy(() =>
-  import("@/components/RotateJumang")
-)
 
 interface Props {
 }
@@ -25,11 +22,6 @@ const Layout: React.FC<Props> = () => {
 
       <Header />
       <div className="MainPage">
-        {!isSSR && isRotateJumang &&
-          <React.Suspense fallback={<div />}>
-            <RotateJumang />
-          </React.Suspense>
-        }
         <Router>
           <MainPage path="/" />
           <MainPage path="/projects" />

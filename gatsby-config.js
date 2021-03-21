@@ -4,11 +4,11 @@ require("dotenv").config({
 const path = require("path");
 
 module.exports = {
-  pathPrefix: "/umebadically",
+  pathPrefix: "/aizudmc",
   siteMetadata: {
-    title: `u r me basically`,
-    description: `r u me basically?`,
-    author: `jumang`,
+    title: `aizudmc`,
+    description: `aizudmc`,
+    author: `dmc`,
     siteURL: "/",
   },
   plugins: [
@@ -59,8 +59,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `u r me basically`,
-        short_name: `umebadically`,
+        name: `aizudmc`,
+        short_name: `aizudmc`,
         start_url: `/`,
         background_color: `#FFFFFF`,
         theme_color: `#FFFFFF`,

@@ -9,14 +9,14 @@ interface Props {
 
 const HeaderFoot: React.FC<Props> = () => {
 
-    const path: string = useLocation().pathname
-    let location: string = ""
+    // const path: string = useLocation().pathname
+    // let location: string = ""
 
-    if (path === "/") location = "ジュマンポータル"
-    else if (path === "/projects") location = "projects"
-    else if (path === "/about") location = "about"
-    else if (path === "/backwash") location = "backwash"
-    else location = "???"
+    // if (path === "/") location = "D🌟M🌟Cサークル"
+    // else if (path === "/projects") location = "projects"
+    // else if (path === "/about") location = "about"
+    // else if (path === "/backwash") location = "backwash"
+    // else location = "???"
 
     return (
         <Link to="/" className="HeaderFoot">
@@ -26,7 +26,7 @@ const HeaderFoot: React.FC<Props> = () => {
                     initial={
                         {
                             opacity: 0.0,
-                            backgroundColor: 'rgba(255, 100, 0, 0)',
+                            backgroundColor: 'rgba(0, 0, 0, 0)',
                             color: 'rgba(50, 50, 50, 0.9)'
                         }}
                     animate={
@@ -49,7 +49,7 @@ const HeaderFoot: React.FC<Props> = () => {
                         }
                     }>
                     <div className="potaruText1 Jet">
-                        JUMANG POTARU ☯ <span className="DPGreen">{location}</span>
+                        会津DMCサークル
                     </div>
                 </motion.div>
             </div>
