@@ -1,17 +1,13 @@
 .MDArea {
     width: 90vw;
     margin: 140px 5vw;
-    // background: #ffffff;
-    // box-shadow: -2px -2px 2px rgba(240, 240, 243, 0.42), 2px 2px 2px rgba(0, 0, 0, 0.13);
     opacity: 0;
     border-radius: 48px;
-    cursor: pointer;
 
     animation-name: huwa_window;
     animation-duration: 0.4s;
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
-    // backdrop-filter: blur(3px);
 
     h1 {
         font-size: 35px;
@@ -29,6 +25,7 @@
         font-size: 20px;
         margin-bottom: 12px;
     }
+    .image,
     img {
         margin-bottom: 35px;
         border-radius: 15px;

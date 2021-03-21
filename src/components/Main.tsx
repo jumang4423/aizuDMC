@@ -1,5 +1,6 @@
 import React from 'react';
 import "@/styles/component/MDArea.scss";
+import Image from "@/components/Image"
 
 interface Props {
 }
@@ -10,7 +11,7 @@ const Main: React.FC<Props> = () => {
         <div className="MDArea">
             <h1 > DMCサークルのホームページにようこそ！</h1>
 
-            <img src="/bk.jpg" alt="dmc" width="100%"></img>
+            <Image src="bk.jpg" alt="dmc"></Image>
 
             <h2 >🎧サークルについて </h2>
 
@@ -58,7 +59,7 @@ const Main: React.FC<Props> = () => {
             <h3 >
                 食堂の３F
             </h3>
-            <img src="/room.JPG" alt="dmc" width="100%"></img>
+            <Image src="room.JPG" alt="dmc" ></Image>
             <h2 ></h2>
             <h2 id='pictures'>🥓写真集　</h2>
             <h3 >
@@ -68,40 +69,40 @@ const Main: React.FC<Props> = () => {
             <h3 >
                 1. ぶりぶり（？）
             </h3>
-            <img src="/buriburi.jpg" alt="dmc" width="100%"></img>
+            <Image src="buriburi.jpg" alt="dmc" ></Image>
             <h3 >
                 2. きれいなDJ機材の写真
             </h3>
-            <img src="/djnoice.jpg" alt="dmc" width="100%"></img>
+            <Image src="djnoice.jpg" alt="dmc" ></Image>
             <h3 >
                 3. 美しい日本の文化の尊重
             </h3>
-            <img src="/sakura.jpg" alt="dmc" width="100%"></img>
+            <Image src="sakura.jpg" alt="dmc" ></Image>
             <h3 >
                 4. ボーリング
             </h3>
-            <img src="/bowl.JPG" alt="dmc" width="100%"></img>
+            <Image src="bowl.JPG" alt="dmc" ></Image>
             <h3 >
                 5. 写像
             </h3>
-            <img src="/jdjd.JPEG" alt="dmc" width="100%"></img>
+            <Image src="jdjd.JPEG" alt="dmc" ></Image>
             <h3 >
                 6. 学祭のポップコーン
             </h3>
-            <img src="/popcorn.jpeg" alt="dmc" width="100%"></img>
-            <img src="/popc.jpg" alt="dmc" width="100%"></img>
+            <Image src="popcorn.jpeg" alt="dmc" ></Image>
+            <Image src="popc.jpg" alt="dmc" ></Image>
             <h3 >
                 7. イベント
             </h3>
-            <img src="/people.JPG" alt="dmc" width="100%"></img>
+            <Image src="people.JPG" alt="dmc" ></Image>
             <h3 >
                 8.  卒業した先輩（哀愁）
             </h3>
-            <img src="/masa.JPG" alt="dmc" width="100%"></img>
+            <Image src="masa.JPG" alt="dmc" ></Image>
             <h3 >
                 9.  DJ神
             </h3>
-            <img src="/djkami.JPG" alt="dmc" width="100%"></img>
+            <Image src="djkami.JPG" alt="dmc" ></Image>
         </div>
     )
 }
