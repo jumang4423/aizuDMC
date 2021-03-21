@@ -24,9 +24,9 @@ const Layout: React.FC<Props> = () => {
       <div className="MainPage">
         <Router>
           <MainPage path="/" />
-          <MainPage path="/projects" />
-          <MainPage path="/about" />
-          <MainPage path="/backwash" />
+          <MainPage path="/pictures" />
+          <MainPage path="/room" />
+          <MainPage path="/twitter" />
           <MainPage path="/404" />
           <MainPage default />
         </Router>
