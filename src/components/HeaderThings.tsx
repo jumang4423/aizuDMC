@@ -10,15 +10,15 @@ const HeaderThings: React.FC<Props> = () => {
 
     return (
         <div className="Things">
-            <Link to="/contact">
+            <a href="#contact">
                 <HeaderButton Name="連絡先" />
-            </Link>
-            <Link to="/room">
+            </a>
+            <a href="#access">
                 <HeaderButton Name="アクセス" />
-            </Link>
-            <Link to="/pictures">
+            </a>
+            <a href="#pictures">
                 <HeaderButton Name="写真集" />
-            </Link>
+            </a>
 
 
         </div>

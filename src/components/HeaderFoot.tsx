@@ -49,7 +49,7 @@ const HeaderFoot: React.FC<Props> = () => {
                         }
                     }>
                     <div className="potaruText1 Jet">
-                        会津DMCサークル
+                        会津大学DMCサークル
                     </div>
                 </motion.div>
             </div>
