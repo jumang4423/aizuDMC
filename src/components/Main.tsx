@@ -41,7 +41,7 @@ const Main: React.FC<Props> = () => {
             <h3 >
                 ● trap
             </h3>
-            <h3 >
+            <h3 id='contact'>
                 ● dubstep / riddim
             </h3>
             <h3 >
@@ -49,18 +49,19 @@ const Main: React.FC<Props> = () => {
             </h3>
 
 
-            <h2 id='contact' >🌈連絡先 </h2>
-            <h3 >
+            <h2 >🌈連絡先 </h2>
+            <h3 id='access'>
                 TwitterのDMにて質問受け付けてます
             </h3>
             <a href="https://twitter.com/aizudmc"> aizuDMCのtwitter </a>
 
-            <h2 id='access'>😻部室へのアクセス　</h2>
+            <h2 >😻部室へのアクセス　</h2>
             <h3 >
                 食堂の３F
             </h3>
             <Image src="room.JPG" alt="dmc" ></Image>
-            <h2 id='pictures'>🥓写真集　</h2>
+            <div id='pictures' style={{ paddingTop: "80px" }}></div>
+            <h2 style={{ paddingTop: 0 }}>🥓写真集　</h2>
             <h3 >
                 DMCサークルで行われたイベントの写真集です。
             </h3>
