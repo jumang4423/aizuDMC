@@ -1,5 +1,5 @@
 .ButtonText1 {
-    height: 27px;
+    height: 16px;
     left: 0%;
     right: 0%;
     top: -4px;
@@ -7,11 +7,11 @@
     font-family: FCODE;
     font-style: normal;
     font-size: 15px;
-    padding: 8px;
+    padding: 10px;
     background: #fff;
     border-radius: 11px;
     font-weight: bold;
-    line-height: 27px;
+    line-height: 16px;
     /* identical to box height, or 208% */
 
     text-align: center;
@@ -22,6 +22,6 @@
 .menu-item {
     cursor: pointer;
     padding: 0 8px;
-    border-radius: 16px;
+    border-radius: 8px;
     box-sizing: border-box;
 }
