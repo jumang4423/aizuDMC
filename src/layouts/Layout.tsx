@@ -27,7 +27,7 @@ const Layout: React.FC<Props> = () => {
         // style={{ height: bodyHeight, width: bodyWidth }}
         >
           <Header />
-          <iframe src="https://amazing-bohr-d113f6.netlify.app/" name="psyche"
+          <iframe src="https://amazing-bohr-d113f6.netlify.app/" name="psyche" title="psyche"
             style={{ height: "70px", width: "100%" }} />
         </div>
         <div className="MainPage">
