@@ -8,24 +8,11 @@ interface Props {
 }
 
 const Layout: React.FC<Props> = () => {
-  // states
-  const isSSR: any = typeof window === "undefined"
-  // const [bodyHeight, setBodyHeight] = useState<any>(0)
-  // const [bodyWidth, setBodyWidth] = useState<any>(0)
-
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setBodyHeight(document.body.scrollHeight)
-  //     setBodyWidth(document.body.scrollWidth)
-  //   }, 1000)
-  // })
 
   return (
     <>
       <div className="main-content">
-        <div className="background-psyche"
-        // style={{ height: bodyHeight, width: bodyWidth }}
-        >
+        <div className="background-psyche">
           <Header />
           <iframe src="https://amazing-bohr-d113f6.netlify.app/" name="psyche" title="psyche"
             style={{ height: "70px", width: "100%" }} />

@@ -4,7 +4,7 @@
 ![README LOGO](_design/bk.jpg)
 #  aizu DMC
 
-- r u me?
+- [URL](https://aizudmc123.web.app)
 
 <h1 align="left" id="english"> 🇺🇸english<h1>
 
