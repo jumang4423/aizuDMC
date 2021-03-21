@@ -9,7 +9,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    z-index: 10000;
+    z-index: 1000000;
     /* background */
     // background: #ffffff;
+
+    iframe {
+        opacity:100;
+        filter:alpha(opacity=100);
+        -moz-opacity:1;
+    }
 }
