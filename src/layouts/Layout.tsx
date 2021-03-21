@@ -8,28 +8,35 @@ interface Props {
 }
 
 const Layout: React.FC<Props> = () => {
-
   // states
   const isSSR: any = typeof window === "undefined"
-  const [isRotateJumang, setIsRotateJumang] = useState<Boolean>(false)
+  const [bodyHeight, setBodyHeight] = useState<any>(false)
+  const [bodyWidth, setBodyWidth] = useState<any>(false)
 
   useEffect(() => {
-    setTimeout(() => { setIsRotateJumang(true) }, 500);
+    if (typeof window !== `undefined`) {
+      setBodyHeight(document.body.scrollHeight)
+      setBodyWidth(document.body.scrollWidth)
+    }
   }, []);
 
   return (
     <>
-
-      <Header />
-      <div className="MainPage">
-        <Router>
-          <MainPage path="/" />
-          <MainPage path="/pictures" />
-          <MainPage path="/room" />
-          <MainPage path="/twitter" />
-          <MainPage path="/404" />
-          <MainPage default />
-        </Router>
+      <div className="background-psyche">
+        <iframe src="https://amazing-bohr-d113f6.netlify.app/" name="psyche" width={bodyWidth} height={bodyHeight} />
+      </div>
+      <div className="main-content">
+        <Header />
+        <div className="MainPage">
+          <Router>
+            <MainPage path="/" />
+            <MainPage path="/pictures" />
+            <MainPage path="/room" />
+            <MainPage path="/twitter" />
+            <MainPage path="/404" />
+            <MainPage default />
+          </Router>
+        </div>
       </div>
     </>
   )
