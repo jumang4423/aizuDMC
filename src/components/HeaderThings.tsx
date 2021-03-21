@@ -16,8 +16,8 @@ const HeaderThings: React.FC<Props> = () => {
             <Link to="/room">
                 <HeaderButton Name="部室" />
             </Link>
-            <Link to="/twitter">
-                <HeaderButton Name="ツイッター" />
+            <Link to="/contact">
+                <HeaderButton Name="連絡先" />
             </Link>
 
         </div>
