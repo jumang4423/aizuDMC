@@ -103,6 +103,10 @@ const Main: React.FC<Props> = () => {
                 9.  DJ神
             </h3>
             <Image src="djkami.JPG" alt="dmc" ></Image>
+
+            <div className="footerImage">
+                <Image src="aizudmc.png" alt="dmc" ></Image>
+            </div>
         </div>
     )
 }

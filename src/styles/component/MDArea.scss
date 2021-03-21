@@ -34,6 +34,25 @@
     }
 }
 
+.footerImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .image.gatsby-image-wrapper {
+        width: 270px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        width: auto !important;
+        height: 200px !important;
+    }
+}
+
 @keyframes huwa_window {
     0% {
         // box-shadow: -2px -2px 2px rgba(240, 240, 243, 0.42), 2px 2px 2px rgba(0, 0, 0, 0.13);
