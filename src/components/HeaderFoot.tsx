@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link } from "gatsby"
-// import { useLocation } from "@reach/router"
-import { motion } from "framer-motion";
 import "@/styles/component/HeaderFoot.scss";
 
 interface Props {
