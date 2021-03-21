@@ -7,7 +7,6 @@ interface Props {
 }
 
 const Main: React.FC<Props> = () => {
-    console.log("unko");
 
     return (
         <div className="MDArea">
@@ -51,19 +50,19 @@ const Main: React.FC<Props> = () => {
                 ● hardcore / speedcore
             </h3>
             <h2 ></h2>
-            <h2 >🌈連絡先 </h2>
+            <h2 id='contact' >🌈連絡先 </h2>
             <h3 >
                 TwitterのDMにて質問受け付けてます
             </h3>
             <a href="https://twitter.com/aizudmc"> aizuDMCのtwitter </a>
             <h2 ></h2>
-            <h2 >😻部室へのアクセス　</h2>
+            <h2 id='access'>😻部室へのアクセス　</h2>
             <h3 >
                 食堂の３F
             </h3>
-            <img src="/room.jpg" alt="dmc" width="100%"></img>
+            <img src="/room.JPG" alt="dmc" width="100%"></img>
             <h2 ></h2>
-            <h2 >💩写真集　</h2>
+            <h2 id='pictures'>🥓写真集　</h2>
             <h3 >
                 DMCサークルで行われたイベントの写真集です。
             </h3>
@@ -96,7 +95,15 @@ const Main: React.FC<Props> = () => {
             <h3 >
                 7. イベント
             </h3>
-            <img src="/people.jpg" alt="dmc" width="100%"></img>
+            <img src="/people.JPG" alt="dmc" width="100%"></img>
+            <h3 >
+                8.  卒業した先輩（哀愁）
+            </h3>
+            <img src="/masa.JPG" alt="dmc" width="100%"></img>
+            <h3 >
+                9.  DJ神
+            </h3>
+            <img src="/djkami.JPG" alt="dmc" width="100%"></img>
         </div>
     )
 }
