@@ -82,11 +82,11 @@ const Main: React.FC<Props> = () => {
             <h3 >
                 4. ボーリング
             </h3>
-            <img src="/bowl.jpg" alt="dmc" width="100%"></img>
+            <img src="/bowl.JPG" alt="dmc" width="100%"></img>
             <h3 >
                 5. 写像
             </h3>
-            <img src="/jdjd.jpeg" alt="dmc" width="100%"></img>
+            <img src="/jdjd.JPEG" alt="dmc" width="100%"></img>
             <h3 >
                 6. 学祭のポップコーン
             </h3>
