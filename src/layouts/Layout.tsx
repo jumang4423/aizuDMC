@@ -10,23 +10,26 @@ interface Props {
 const Layout: React.FC<Props> = () => {
   // states
   const isSSR: any = typeof window === "undefined"
-  const [bodyHeight, setBodyHeight] = useState<any>(false)
-  const [bodyWidth, setBodyWidth] = useState<any>(false)
+  // const [bodyHeight, setBodyHeight] = useState<any>(0)
+  // const [bodyWidth, setBodyWidth] = useState<any>(0)
 
-  useEffect(() => {
-    if (typeof window !== `undefined`) {
-      setBodyHeight(document.body.scrollHeight)
-      setBodyWidth(document.body.scrollWidth)
-    }
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setBodyHeight(document.body.scrollHeight)
+  //     setBodyWidth(document.body.scrollWidth)
+  //   }, 1000)
+  // })
 
   return (
     <>
-      <div className="background-psyche">
-        <iframe src="https://amazing-bohr-d113f6.netlify.app/" name="psyche" width={bodyWidth} height={bodyHeight} />
-      </div>
       <div className="main-content">
-        <Header />
+        <div className="background-psyche"
+        // style={{ height: bodyHeight, width: bodyWidth }}
+        >
+          <Header />
+          <iframe src="https://amazing-bohr-d113f6.netlify.app/" name="psyche"
+            style={{ height: "70px", width: "100%" }} />
+        </div>
         <div className="MainPage">
           <Router>
             <MainPage path="/" />

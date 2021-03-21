@@ -6,8 +6,11 @@
 
     font-family: FCODE;
     font-style: normal;
-    font-weight: normal;
     font-size: 15px;
+    padding: 8px;
+    background: #fff;
+    border-radius: 11px;
+    font-weight: bold;
     line-height: 27px;
     /* identical to box height, or 208% */
 
@@ -17,8 +20,8 @@
 }
 
 .menu-item {
-    border-radius: 6px;
     cursor: pointer;
     padding: 0 8px;
+    border-radius: 16px;
     box-sizing: border-box;
 }
