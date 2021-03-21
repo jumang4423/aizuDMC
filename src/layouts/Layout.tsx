@@ -22,12 +22,6 @@ const Layout: React.FC<Props> = () => {
 
   return (
     <>
-<<<<<<< HEAD
-=======
-      <div className="background-psyche">
-        {/* <iframe src="https://amazing-bohr-d113f6.netlify.app/" name="psyche" width={bodyWidth} height={bodyHeight} /> */}
-      </div>
->>>>>>> 33c50487d8c4bc0659d7ba40fd69fdef9a4d0f8e
       <div className="main-content">
         <div className="background-psyche"
         // style={{ height: bodyHeight, width: bodyWidth }}
