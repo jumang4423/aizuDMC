@@ -60,7 +60,7 @@ const Main: React.FC<Props> = () => {
             <h3 >
                 食堂の３F
             </h3>
-            <img src="/room.jpg" alt="dmc" width="100%"></img>
+            <img src="/room.JPG" alt="dmc" width="100%"></img>
             <h2 ></h2>
             <h2 id='pictures'>🥓写真集　</h2>
             <h3 >
@@ -95,15 +95,15 @@ const Main: React.FC<Props> = () => {
             <h3 >
                 7. イベント
             </h3>
-            <img src="/people.jpg" alt="dmc" width="100%"></img>
+            <img src="/people.JPG" alt="dmc" width="100%"></img>
             <h3 >
                 8.  卒業した先輩（哀愁）
             </h3>
-            <img src="/masa.jpg" alt="dmc" width="100%"></img>
+            <img src="/masa.JPG" alt="dmc" width="100%"></img>
             <h3 >
                 9.  DJ神
             </h3>
-            <img src="/djkami.jpg" alt="dmc" width="100%"></img>
+            <img src="/djkami.JPG" alt="dmc" width="100%"></img>
         </div>
     )
 }

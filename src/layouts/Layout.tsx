@@ -23,7 +23,7 @@ const Layout: React.FC<Props> = () => {
   return (
     <>
       <div className="background-psyche">
-        <iframe src="https://amazing-bohr-d113f6.netlify.app/" name="psyche" width={bodyWidth} height={bodyHeight} />
+        {/* <iframe src="https://amazing-bohr-d113f6.netlify.app/" name="psyche" width={bodyWidth} height={bodyHeight} /> */}
       </div>
       <div className="main-content">
         <Header />
