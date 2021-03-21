@@ -10,12 +10,14 @@
     flex-wrap: wrap;
     justify-content: space-between;
     z-index: 1000000;
-    /* background */
-    // background: #ffffff;
+
+    @media screen and (max-width: 768px) {
+        padding: 16px;
+    }
 
     iframe {
-        opacity:100;
-        filter:alpha(opacity=100);
-        -moz-opacity:1;
+        opacity: 100;
+        filter: alpha(opacity=100);
+        -moz-opacity: 1;
     }
 }

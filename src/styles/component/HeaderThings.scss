@@ -7,3 +7,54 @@
         margin: auto 8px;
     }
 }
+
+.menu_button {
+    display: none;
+    cursor: pointer;
+
+    svg {
+        color: white !important;
+        width: 40px;
+        height: 40px;
+
+        &:nth-of-type(1) {
+            display: block;
+        }
+        &:nth-of-type(2) {
+            display: none;
+        }
+    }
+}
+
+.menu_button.checked {
+    svg {
+        &:nth-of-type(1) {
+            display: none;
+        }
+        &:nth-of-type(2) {
+            display: block;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu_button {
+        display: flex;
+    }
+
+    .Things {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 70px;
+        background: white;
+        box-shadow: -10px -10px 34px rgba(240, 240, 243, 0.712), 10px 10px 34px rgba(0, 0, 0, 0.151);
+        border-radius: 0 0 0 16px;
+        padding: 16px;
+
+        &.checked {
+            display: flex;
+        }
+    }
+}
